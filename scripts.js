@@ -1,5 +1,5 @@
 function correctInput(){
-    
+
     var correct = document.getElementById("correct").value
     var total = document.getElementById("total").value
 
@@ -8,7 +8,7 @@ function correctInput(){
         return
     }
 
-    var roundedSolution = Math.round((correct / total) * 100)
+    var roundedSolution = Math.round(((correct / total) * 100)*10)/10
     document.getElementById("answer").style.color = "grey"
     if (roundedSolution <=100){
         document.getElementById("answer").textContent = roundedSolution + "%"

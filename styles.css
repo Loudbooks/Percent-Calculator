@@ -11,7 +11,7 @@
 }
 input {
     width: 50vw;
-    height: 10vw;
+    height: 8.2vw;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -25,7 +25,7 @@ input {
     font-family: 'Poppins';
     padding: 1.2px;
 
-    
+
 }
 ::placeholder{
     font-size: 5vw;
@@ -49,3 +49,7 @@ input:focus {
     color: white;
     transition: color, 0.5s;
 }
+
+
+
+
